@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('assets/fonts/NeutraText-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('assets/fonts/NeutraText-Bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@theme {
+    --font-neutra: 'Neutra Text', sans-serif;
+    --color-light: #f8f9fa;
+    --color-black: #322625;
+    --color-gray:  #ebebeb;
+    --color-blue: #c0e3e5;
+    --color-yellow: #fdc936;
+}
+
+body {
+    font-family: var(--font-neutra);
+    background-color: var(--color-gray);
+    color: var(--color-dark);
+}
