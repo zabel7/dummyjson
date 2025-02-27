@@ -1,5 +1,5 @@
 
-# React app that displays list of cards
+# React app that displays data tables using dummyjson api 
 
 This project was created using Vite version 6.1.0. It requires Node.js version 18 or higher.
 
